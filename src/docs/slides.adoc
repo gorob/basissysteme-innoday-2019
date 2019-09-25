@@ -113,12 +113,14 @@ Frühzeitiges Erkennen von Problemen +
 .Live Demo
 {nbsp}
 
+[.big]
 * *Cockpit* +
-http://cockpit.badintern.de/workspace/Portal/
+http://cockpit.badenia.de/
 
 {nbsp}
 
-* *Link im Browser* +
+[.big]
+* *Interner Link im Browser* +
 http://vip-axway-prod:8086/RealtimeUeberwachungMonitor
 
 
