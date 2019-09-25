@@ -13,19 +13,21 @@ image::URL_Presentation.png[width="40%"]
 
 
 == DOPiX GiroCode
-[.maxed-image]
-image::girocode.png[]
+image::girocode.png[width="55%"]
 
 
 === Was ist ein GiroCode?
 
 [quote, https://www.girocode-generator.de]
 ____
-Ein GiroCodefootnote:[GiroCode ist eine Marketing-Bezeichnung der GiroSolution GmbH für EPC-QR-Codes.] ist ein QR-Code (englisch „Quick Response“), mit allen relevanten Daten (Empfänger, IBAN, BIC, Betrag und Verwendungszweck) für eine SEPA-Überweisung. Banking-Apps wie beispielsweise die VR-Banking-App oder die Sparkassen-App auf dem Smartphone oder Tablet decodieren die Daten des QR-Codes zur weiteren Verwendung. Der Nutzer kann nun die Zahlungsdaten prüfen und wie gewohnt mit einer TAN freigeben.
+Ein GiroCode* ist ein QR-Code (englisch „Quick Response“), mit allen relevanten Daten (Empfänger, IBAN, BIC, Betrag und Verwendungszweck) für eine SEPA-Überweisung. Banking-Apps wie beispielsweise die VR-Banking-App oder die Sparkassen-App auf dem Smartphone oder Tablet decodieren die Daten des QR-Codes zur weiteren Verwendung. Der Nutzer kann nun die Zahlungsdaten prüfen und wie gewohnt mit einer TAN freigeben.
 
 Das European Payments Council (EPC) hat einen standardisierten Datensatz definiert, um eine europaweite und einheitliche technische Ausfüllhilfe bereitzustellen.
 ____
 
+[.x-small]
+[.halign-center]
+*GiroCode ist eine Marketing-Bezeichnung der GiroSolution GmbH für EPC-QR-Codes.
 
 === Ablauf
 image::EPC_QR_CODE_Workflow.png[width="100%"]
@@ -52,13 +54,12 @@ image::QR-Code.png[width="40%"]
 
 
 == Realtime Überwachung
-[.maxed-image]
-image::Realtime.png[]
+image::Realtime.png[width="70%"]
 
 
 
 === Realtime Überwachung Monitor
-{nbsp} +
+{nbsp}
 
 [%step]
 [.halign-center]
@@ -69,7 +70,7 @@ Intervallgesteuerte Prüfung von +
 internen und externen (Web-) +
 Services und Verbindungen
 
-{nbsp} +
+{nbsp}
 
 [%step]
 [.halign-center]
@@ -94,7 +95,7 @@ plantuml::{plantuml}/overview_rtue.puml[format=png, title="Überblick angebunden
 Frühzeitiges Erkennen von Problemen +
 (Beispielsweise Sprengnetter ONE oder Ten2Click)
 
-{nbsp} +
+{nbsp}
 
 [%step]
 [.halign-center]
@@ -104,6 +105,21 @@ Frühzeitiges Erkennen von Problemen +
 ** - Kompakteres Format +
 ** - Online Anzeige der letzten Fehlermeldungen +
 ** - Einbindung weiterer Services
+
+=== Realtime Überwachung Monitor
+
+{nbsp}
+
+.Live Demo
+{nbsp}
+
+* *Cockpit* +
+http://cockpit.badintern.de/workspace/Portal/
+
+{nbsp}
+
+* *Link im Browser* +
+http://vip-axway-prod:8086/RealtimeUeberwachungMonitor
 
 
 [.questions]
