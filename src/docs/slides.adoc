@@ -115,7 +115,7 @@ Frühzeitiges Erkennen von Problemen +
 
 [.big]
 * *Cockpit* +
-http://cockpit.badenia.de/
+https://cockpit.badenia.de/
 
 {nbsp}
 
